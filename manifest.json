@@ -1,0 +1,28 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+    "name": "ReactBotify",
+    "version": "1.0.0",
+    "icons": {
+        "96": "icon.png"
+    },
+    "description": "Modify YouTube thumbnails to include ReactBot",
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["theory.js"],
+        "run_at": "document_idle"
+    }],
+    "web_accessible_resources": [{
+        "resources": [
+            "images/*.png"
+        ],
+        "matches": [
+            "*://*/*"
+        ]
+    }]
+
+}

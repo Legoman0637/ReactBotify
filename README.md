@@ -16,7 +16,7 @@ youtuber **ReactBot** to every thumbnail.
 
 - This extension should be compatible with any Firefox / Chromium based browser.
 - This extension was inspired by **[Unnecessary Inventions][UI YouTube]** and his **[Website][UI Website]**.
-- This extension is unofficial and not affiliated with Jacksflims or YouTube.
+- This extension is unofficial and not affiliated with Jacksflims, Camtoonist or YouTube.
 - All images taken from **[Unnofficial ReactBot Channel][UI ReactBot]**
 
 

@@ -1,4 +1,4 @@
-0{
+{
 "update_url": "https://clients2.google.com/service/update2/crx",
 
     "manifest_version": 3,
@@ -7,7 +7,7 @@
     "icons": {
         "96": "icon.png"
     },
-    "description": "Modify YouTube thumbnails to include to include ovver 600 different images of ReactBot",
+    "description": "Modify YouTube thumbnails to include 1 of over 600 different images of ReactBot",
     "host_permissions": [
         "https://www.youtube.com/*"
     ],
